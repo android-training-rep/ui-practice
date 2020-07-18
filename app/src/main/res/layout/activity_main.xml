@@ -6,28 +6,33 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.google.android.material.appbar.AppBarLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingVertical="100px"
+        android:gravity="center_horizontal">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50px"
+            android:text="@string/button1" />
 
-    </com.google.android.material.appbar.AppBarLayout>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50px"
+            android:text="@string/button2" />
 
-    <include layout="@layout/content_main" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50px"
+            android:text="@string/button3" />
+    </LinearLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
