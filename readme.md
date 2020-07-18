@@ -1,1 +1,2 @@
-![avatar](./result/zh.png)
+![avatar](./result/zh-linearlayout.png)
+![avatar](./result/en-linearlayout.png)
