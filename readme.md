@@ -1,1 +1,1 @@
-![avatar](./hello-home.jpg)
+![avatar](./result/zh.png)
