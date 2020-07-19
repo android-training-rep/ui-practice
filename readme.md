@@ -1,2 +1,2 @@
-![avatar](./result/zh-multi-layout.png)
-![avatar](./result/en-multi-layout.png)
+![avatar](./result/zh-multi-activity.jpg)
+![avatar](./result/en-multi-activity.jpg)
