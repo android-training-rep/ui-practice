@@ -9,63 +9,99 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingHorizontal="62.5dp"
         >
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@mipmap/fill_1"
+            android:layout_marginTop="88dp"
             />
         <EditText
             android:id="@+id/username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="77.7dp"
+            android:hint="Username"
+            android:textColor="#e4e4e4"
             />
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Password"
+            android:textColor="#e4e4e4"
             />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginTop="22.5dp">
             <CheckBox
                 android:id="@+id/remenber"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Remenber me"
+                android:textColor="#222222"
+                android:textSize="12sp"
+                android:layout_weight="1"
                 />
             <TextView
                 android:id="@+id/forgot"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Forgot password?"
+                android:textColor="#222222"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:gravity="right"
                 />
         </LinearLayout>
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_fill_bg_rounded_corners"
+            android:layout_marginTop="22.5dp"
+            android:textColor="#ffffff"
+            android:text="Login"
+            />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="or connect with"
+            android:textColor="#b2b2b2"
+            android:layout_marginTop="26.5dp"
+            android:gravity="center_horizontal"
             />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginTop="29.5dp">
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@mipmap/tw"
+                android:layout_weight="1"
                 />
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@mipmap/fb"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
                 />
         </LinearLayout>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Sign Up with E-mail"
+            android:layout_marginTop="85.5dp"
+            android:textColor="#1f4ba5"
+            android:background="@drawable/button_bg_rounded_corners"
             />
     </LinearLayout>
 
